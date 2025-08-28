@@ -40,11 +40,11 @@ python kathara_to_svg.py lab.conf -w 1200 --height 900
 
 How It Works
 
-* Parse the lab.conf file to extract nodes and connections
-** Classify nodes (router/PC/server) based on names and images
-# Detect network topology (ring vs. hierarchical)
-# Layout nodes using appropriate algorithm
-## Generate SVG with connections, labels, and legend
+1. Parse the lab.conf file to extract nodes and connections
+2. Classify nodes (router/PC/server) based on names and images
+3. Detect network topology (ring vs. hierarchical)
+4. Layout nodes using appropriate algorithm
+5. Generate SVG with connections, labels, and legend
 
 Supported Features
 
@@ -57,6 +57,8 @@ Supported Features
 ✅ Collision domain labeling
 
 The program will automatically detect that your original lab.conf has a ring topology and arrange the 5 routers in a circle with PCs positioned around them, just like the manual diagram I created earlier!
+
+***
 
 v1 - based on prompt : convert lab.conf to SVG diagram - use the following lab.conf as an example. 
 
@@ -114,13 +116,15 @@ Special Node: The SNMP manager (purple) is bridged with port forwarding for Zabb
 
 Visual Elements:
 
-Orange circles: FRRouting routers
-Gray rectangles: Alpine Linux PCs
-Purple rectangle: Zabbix Ubuntu SNMP manager
-Blue solid lines: Ring connections between routers
-Green dashed lines: LAN connections to PCs
-Labels show collision domains and interface assignments
+- Orange circles: FRRouting routers
+- Gray rectangles: Alpine Linux PCs
+- Purple rectangle: Zabbix Ubuntu SNMP manager
+- Blue solid lines: Ring connections between routers
+- Green dashed lines: LAN connections to PCs
+- Labels show collision domains and interface assignments
 
 The diagram accurately represents your lab.conf topology, making it easy to understand the network structure for documentation or teaching purposes.
+
+***
 
 v2 - I've modified the kathara_to_svg.py program to use black Arial font for all text elements.
