@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 1000 800" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="1000" height="800" fill="#f8f9fa"/>
+
+  <!-- Title -->
+  <text x="500.0" y="30" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="black">
+    FiveRouterRing
+  </text>
+  <text x="500.0" y="50" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="black">
+    5 routers in a ring (FRRouting), each to an Alpine Linux PC
+  </text>
+
+  <!-- Connections -->
+  <line x1="500.0" y1="200.0" x2="500.0" y2="100.0" 
+                stroke="#4CAF50" stroke-width="2" />
+  <text x="500.0" y="145.0" 
+        text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="black">
+    cd1
+  </text>
+  <line x1="690.2113032590307" y1="338.19660112501055" x2="785.3169548885461" y2="307.2949016875158" 
+                stroke="#4CAF50" stroke-width="2" stroke-dasharray="5,5"/>
+  <text x="737.7641290737884" y="317.74575140626314" 
+        text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="black">
+    cd2
+  </text>
+  <line x1="617.5570504584946" y1="561.8033988749895" x2="676.3355756877419" y2="642.7050983124843" 
+                stroke="#4CAF50" stroke-width="2" stroke-dasharray="5,5"/>
+  <text x="646.9463130731183" y="597.254248593737" 
+        text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="black">
+    cd3
+  </text>
+  <line x1="382.4429495415054" y1="561.8033988749895" x2="323.6644243122581" y2="642.7050983124843" 
+                stroke="#4CAF50" stroke-width="2" stroke-dasharray="5,5"/>
+  <text x="353.05368692688177" y="597.254248593737" 
+        text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="black">
+    cd4
+  </text>
+  <line x1="309.78869674096927" y1="338.19660112501055" x2="214.6830451114539" y2="307.2949016875158" 
+                stroke="#4CAF50" stroke-width="2" stroke-dasharray="5,5"/>
+  <text x="262.2358709262116" y="317.74575140626314" 
+        text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="black">
+    cd5
+  </text>
+  <line x1="500.0" y1="200.0" x2="309.78869674096927" y2="338.19660112501055" 
+                stroke="#4CAF50" stroke-width="2" />
+  <text x="404.89434837048464" y="264.0983005625053" 
+        text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="black">
+    cd6
+  </text>
+  <line x1="500.0" y1="200.0" x2="690.2113032590307" y2="338.19660112501055" 
+                stroke="#4CAF50" stroke-width="2" />
+  <text x="595.1056516295154" y="264.0983005625053" 
+        text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="black">
+    cd7
+  </text>
+  <line x1="690.2113032590307" y1="338.19660112501055" x2="617.5570504584946" y2="561.8033988749895" 
+                stroke="#4CAF50" stroke-width="2" />
+  <text x="653.8841768587627" y="445.0" 
+        text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="black">
+    cd8
+  </text>
+  <line x1="617.5570504584946" y1="561.8033988749895" x2="382.4429495415054" y2="561.8033988749895" 
+                stroke="#4CAF50" stroke-width="2" />
+  <text x="500.0" y="556.8033988749895" 
+        text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="black">
+    cd9
+  </text>
+  <line x1="382.4429495415054" y1="561.8033988749895" x2="309.78869674096927" y2="338.19660112501055" 
+                stroke="#4CAF50" stroke-width="2" />
+  <text x="346.11582314123734" y="445.0" 
+        text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="black">
+    cd10
+  </text>
+
+  <!-- Nodes -->
+  <!-- r1 -->
+  <circle cx="500.0" cy="200.0" r="25" fill="#FF9800" stroke="#E65100" stroke-width="2"/>
+  <text x="500.0" y="205.0" text-anchor="middle" font-family="Arial, sans-serif" 
+        font-size="11" font-weight="bold" fill="black">
+    R1
+  </text>
+  <text x="500.0" y="235.0" text-anchor="middle" font-family="Arial, sans-serif" 
+        font-size="9" fill="black">
+    Router
+  </text>
+  <!-- r2 -->
+  <circle cx="690.2113032590307" cy="338.19660112501055" r="25" fill="#FF9800" stroke="#E65100" stroke-width="2"/>
+  <text x="690.2113032590307" y="343.19660112501055" text-anchor="middle" font-family="Arial, sans-serif" 
+        font-size="11" font-weight="bold" fill="black">
+    R2
+  </text>
+  <text x="690.2113032590307" y="373.19660112501055" text-anchor="middle" font-family="Arial, sans-serif" 
+        font-size="9" fill="black">
+    Router
+  </text>
+  <!-- r3 -->
+  <circle cx="617.5570504584946" cy="561.8033988749895" r="25" fill="#FF9800" stroke="#E65100" stroke-width="2"/>
+  <text x="617.5570504584946" y="566.8033988749895" text-anchor="middle" font-family="Arial, sans-serif" 
+        font-size="11" font-weight="bold" fill="black">
+    R3
+  </text>
+  <text x="617.5570504584946" y="596.8033988749895" text-anchor="middle" font-family="Arial, sans-serif" 
+        font-size="9" fill="black">
+    Router
+  </text>
+  <!-- r4 -->
+  <circle cx="382.4429495415054" cy="561.8033988749895" r="25" fill="#FF9800" stroke="#E65100" stroke-width="2"/>
+  <text x="382.4429495415054" y="566.8033988749895" text-anchor="middle" font-family="Arial, sans-serif" 
+        font-size="11" font-weight="bold" fill="black">
+    R4
+  </text>
+  <text x="382.4429495415054" y="596.8033988749895" text-anchor="middle" font-family="Arial, sans-serif" 
+        font-size="9" fill="black">
+    Router
+  </text>
+  <!-- r5 -->
+  <circle cx="309.78869674096927" cy="338.19660112501055" r="25" fill="#FF9800" stroke="#E65100" stroke-width="2"/>
+  <text x="309.78869674096927" y="343.19660112501055" text-anchor="middle" font-family="Arial, sans-serif" 
+        font-size="11" font-weight="bold" fill="black">
+    R5
+  </text>
+  <text x="309.78869674096927" y="373.19660112501055" text-anchor="middle" font-family="Arial, sans-serif" 
+        font-size="9" fill="black">
+    Router
+  </text>
+  <!-- snmp_manager -->
+  <rect x="470.0" y="85.0" width="60" height="30" rx="3" 
+        fill="#9C27B0" stroke="#6A1B9A" stroke-width="2"/>
+  <text x="500.0" y="103.0" text-anchor="middle" font-family="Arial, sans-serif" 
+        font-size="9" font-weight="bold" fill="black">
+    SNMP_MANAGER
+  </text>
+  <text x="500.0" y="135.0" text-anchor="middle" font-family="Arial, sans-serif" 
+        font-size="8" fill="black">
+    Server (Bridged)
+  </text>
+  <!-- pc2 -->
+  <rect x="760.3169548885461" y="295.2949016875158" width="50" height="24" rx="3" 
+        fill="#607D8B" stroke="#37474F" stroke-width="2"/>
+  <text x="785.3169548885461" y="310.2949016875158" text-anchor="middle" font-family="Arial, sans-serif" 
+        font-size="10" font-weight="bold" fill="black">
+    PC2
+  </text>
+  <text x="785.3169548885461" y="342.2949016875158" text-anchor="middle" font-family="Arial, sans-serif" 
+        font-size="9" fill="black">
+    PC
+  </text>
+  <!-- pc3 -->
+  <rect x="651.3355756877419" y="630.7050983124843" width="50" height="24" rx="3" 
+        fill="#607D8B" stroke="#37474F" stroke-width="2"/>
+  <text x="676.3355756877419" y="645.7050983124843" text-anchor="middle" font-family="Arial, sans-serif" 
+        font-size="10" font-weight="bold" fill="black">
+    PC3
+  </text>
+  <text x="676.3355756877419" y="677.7050983124843" text-anchor="middle" font-family="Arial, sans-serif" 
+        font-size="9" fill="black">
+    PC
+  </text>
+  <!-- pc4 -->
+  <rect x="298.6644243122581" y="630.7050983124843" width="50" height="24" rx="3" 
+        fill="#607D8B" stroke="#37474F" stroke-width="2"/>
+  <text x="323.6644243122581" y="645.7050983124843" text-anchor="middle" font-family="Arial, sans-serif" 
+        font-size="10" font-weight="bold" fill="black">
+    PC4
+  </text>
+  <text x="323.6644243122581" y="677.7050983124843" text-anchor="middle" font-family="Arial, sans-serif" 
+        font-size="9" fill="black">
+    PC
+  </text>
+  <!-- pc5 -->
+  <rect x="189.6830451114539" y="295.2949016875158" width="50" height="24" rx="3" 
+        fill="#607D8B" stroke="#37474F" stroke-width="2"/>
+  <text x="214.6830451114539" y="310.2949016875158" text-anchor="middle" font-family="Arial, sans-serif" 
+        font-size="10" font-weight="bold" fill="black">
+    PC5
+  </text>
+  <text x="214.6830451114539" y="342.2949016875158" text-anchor="middle" font-family="Arial, sans-serif" 
+        font-size="9" fill="black">
+    PC
+  </text>
+
+  <!-- Legend -->
+  <g transform="translate(50, 600)">
+    <text x="0" y="0" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="black">Legend:</text>
+    
+    <!-- Router legend -->
+    <circle cx="15" cy="25" r="12" fill="#FF9800" stroke="#E65100" stroke-width="1"/>
+    <text x="35" y="30" font-family="Arial, sans-serif" font-size="12" fill="black">Router</text>
+    
+    <!-- PC legend -->
+    <rect x="5" y="40" width="20" height="12" rx="2" fill="#607D8B" stroke="#37474F" stroke-width="1"/>
+    <text x="35" y="49" font-family="Arial, sans-serif" font-size="12" fill="black">PC/Host</text>
+    
+    <!-- Server legend -->
+    <rect x="5" y="60" width="20" height="12" rx="2" fill="#9C27B0" stroke="#6A1B9A" stroke-width="1"/>
+    <text x="35" y="69" font-family="Arial, sans-serif" font-size="12" fill="black">Server</text>
+    
+    <!-- Ring connection legend -->
+    <line x1="10" y1="85" x2="30" y2="85" stroke="#2196F3" stroke-width="2"/>
+    <text x="35" y="89" font-family="Arial, sans-serif" font-size="12" fill="black">Ring Connection</text>
+    
+    <!-- P2P connection legend -->
+    <line x1="10" y1="105" x2="30" y2="105" stroke="#4CAF50" stroke-width="2" stroke-dasharray="3,3"/>
+    <text x="35" y="109" font-family="Arial, sans-serif" font-size="12" fill="black">LAN Connection</text>
+    
+    <!-- Hub legend -->
+    <circle cx="15" cy="125" r="4" fill="#FFC107" stroke="#F57C00" stroke-width="1"/>
+    <text x="35" y="129" font-family="Arial, sans-serif" font-size="12" fill="black">Network Hub</text>
+  </g>
+</svg>
