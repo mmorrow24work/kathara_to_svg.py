@@ -107,6 +107,52 @@ r4[2]="cd10"
 r5[1]="cd10"
 r5[2]="cd6"
 ```
+***
+``` python
+# Kathara Ring Topology with 5 Routers and 5 PCs
+LAB_NAME="FiveRouterRing"
+LAB_DESCRIPTION="5 routers in a ring (FRRouting), each to an Alpine Linux PC"
+LAB_VERSION=1.4
+# Router images
+r1[image]="zabbix7.4_frr:1.0"
+r2[image]="zabbix7.4_frr:1.0"
+r3[image]="zabbix7.4_frr:1.0"
+r4[image]="zabbix7.4_frr:1.0"
+r5[image]="zabbix7.4_frr:1.0"
+# PC images
+snmp_manager[image]="kathara_zabbix7.4-ubuntu24:1.0"
+pc2[image]="alpine_pc:1.0"
+pc3[image]="alpine_pc:1.0"
+pc4[image]="alpine_pc:1.0"
+pc5[image]="alpine_pc:1.0"
+# LAN interfaces
+r1[0]="cd1"
+r2[0]="cd2"
+r3[0]="cd3"
+r4[0]="cd4"
+r5[0]="cd5"
+snmp_manager[0]="cd1"
+snmp_manager[bridged]="true"
+# snmp_manager[network]="host"
+snmp_manager[port]="10051:10051/tcp"
+snmp_manager[port]="10050:10050/tcp"
+snmp_manager[port]="8080:80/tcp"
+pc2[0]="cd2"
+pc3[0]="cd3"
+pc4[0]="cd4"
+pc5[0]="cd5"
+# Ring links between routers
+r1[1]="cd6"
+r1[2]="cd7"
+r2[1]="cd7"
+r2[2]="cd8"
+r3[1]="cd8"
+r3[2]="cd9"
+r4[1]="cd9"
+r4[2]="cd10"
+r5[1]="cd10"
+r5[2]="cd6"
+```
 
 Network Structure:
 
