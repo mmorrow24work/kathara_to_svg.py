@@ -26,15 +26,15 @@ Legend: Comprehensive legend explaining all visual elements
 
 
 # Basic usage
-```
+``` bash
 python kathara_to_svg.py lab.conf
 ```
 # Specify output file
-```
+``` bash
 python kathara_to_svg.py lab.conf -o network_diagram.svg
-```
+``` 
 # Custom dimensions
-```
+``` bash
 python kathara_to_svg.py lab.conf -w 1200 --height 900
 ```
 
@@ -62,7 +62,7 @@ The program will automatically detect that your original lab.conf has a ring top
 
 v1 - based on prompt : convert lab.conf to SVG diagram - use the following lab.conf as an example. 
 
-```
+``` bash
 # Kathara Ring Topology with 5 Routers and 5 PCs
 LAB_NAME="FiveRouterRing"
 LAB_DESCRIPTION="5 routers in a ring (FRRouting), each to an Alpine Linux PC"
